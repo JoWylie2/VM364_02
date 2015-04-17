@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Water (Pro Only)/Sources/Shaders/FX-Water.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Custom_Assets/Scripts/Destroy on click.js">
     <Files>
       <File FileName="Assets/Standard Assets/Water (Pro Only)/Sources/Shaders/FX-Water.shader" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/CursorLock.js" Line="1" Column="1" />
+      <File FileName="Assets/Custom_Assets/Scripts/Destroy on click.js" Line="17" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
