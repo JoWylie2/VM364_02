@@ -1,5 +1,5 @@
 ﻿#pragma strict
 
 function OnMouseDown () {
-	Destroy (gameObject);
+	Destroy (this.gameObject);
 }
