@@ -6,18 +6,18 @@ My research project into how to create a terrain with a bump map. I had a projec
  a cracked, broken road that looks particularly flat when building
  
 ![Image of Flat Terrain]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/FlatTerrain_01.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/FlatTerrain_01.png)
  ![Image of Flat Terrain]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/FlatTerrain_02.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/FlatTerrain_02.png)
 
  This was the image I was using on this terrain, as a diffuse material as a texture brush.
  It was an image of cracked dirt, offset in the usual way to tile it, and then with the road 
  lines painted on with photoshop. Very simple.
  
 ![Image of Road Tile]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/Road_Tile.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/Road_Tile.png)
 ![Image of Road tile bump]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/Road_Bump.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/Road_Bump.png)
 
 I had to create a bump map for the tile. I created the bump map using the already grayscale 
 cracked road texture. 
@@ -25,7 +25,7 @@ cracked road texture.
 Once you import the tiles into Unity, in the import settings dialoge, select "Alpha from Grayscale".
 
 ![Image of the Import Settings Dialogue]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/Import_settings.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/Import_settings.png)
 
 However, saving this image separately and putting it into unity has no
 effect at this point.
@@ -35,16 +35,16 @@ For now, leave the specular color and shininess at their automatic settings. You
 to your desire.
 
 ![Image of how to create the new material]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/New_Mat.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/New_Mat.png)
 
 In your terrain settings, place your new bumped material into the "Material" option.
 
 ![Image of where to assign the material to the terrain]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/Assign_mat.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/Assign_mat.png)
 
 Paint your terrain! The terrain should now be bumped, reacting to your light source and the player movement.
 
 ![Image of Bumped Terrain]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/BumpedTerrain_01.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/BumpedTerrain_01.png)
 ![Image of Bumped Terrain]
-(https://JoWylie2.github.com/VM364_02/RESEARCH_PROJ/img/BumpedTerrain_02.png)
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/BumpedTerrain_02.png)
