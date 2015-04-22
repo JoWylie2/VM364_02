@@ -2,11 +2,6 @@
 
 
 function Start (){
-Screen.lockCursor = true;
-
-}
-
-function Update (){
-Screen.lockCursor = true;
+	Screen.lockCursor = true;
 
 }
