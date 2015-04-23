@@ -47,4 +47,8 @@ Paint your terrain! The terrain should now be bumped, reacting to your light sou
 ![Image of Bumped Terrain]
 (https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/BumpedTerrain_01.png)
 ![Image of Bumped Terrain]
+<<<<<<< HEAD:RESEARCH_PROJ/BumpedTerrainTut.md
 (https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/BumpedTerrain_02.png)
+=======
+(https://github.com/JoWylie2/VM364_02/blob/master/RESEARCH_PROJ/Img/BumpedTerrain_02.png)
+>>>>>>> 0ade2184706a99b055185aef1a480b323dd0efd2:RESEARCH_PROJ/BumpedTerrainTut.md
