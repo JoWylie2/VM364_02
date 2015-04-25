@@ -1,15 +1,17 @@
 ﻿#pragma strict
 
-var radioOn : boolean = false;
+var radioOn : boolean = false; 
 
 function Start () {
-	light.intensity =0;
+	light.color = Color.red;
+	light.intensity = 2;
 }
 
 function OnMouseDown(){
 	if (radioOn == false) {
-	light.intensity =2;
-     	audio.Play();
-     	radioOn = true;
-	}
+		light.color = Color.green;
+	     audio.Play();
+	     radioOn = true;
+	     light.intensity = 1;
+		}
 }
