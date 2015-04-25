@@ -1,6 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Robot_Deactive_Button.js">
+    <Files>
+      <File FileName="Assets/_Scripts/Robot_Deactivate.js" Line="16" Column="2" />
+      <File FileName="Assets/_Scripts/Radio_Fix.js" Line="13" Column="7" />
+      <File FileName="Assets/_Scripts/ObjectDestroy.js" Line="3" Column="26" />
+      <File FileName="Assets/_Scripts/Robot_Deactive_Button.js" Line="3" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
