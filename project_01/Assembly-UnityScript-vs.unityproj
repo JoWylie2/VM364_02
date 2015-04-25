@@ -48,12 +48,20 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\Cursor\CrossHairCursor.js" />
      <Compile Include="Assets\_Scripts\Cursor\CursorLock.js" />
+     <Compile Include="Assets\_Scripts\Dynamic_Speed_slow1.js" />
+     <Compile Include="Assets\_Scripts\HelpText.js" />
      <Compile Include="Assets\_Scripts\Lookat.js" />
      <Compile Include="Assets\_Scripts\ObjectDestroy.js" />
      <Compile Include="Assets\_Scripts\Radio_Fix.js" />
+     <Compile Include="Assets\_Scripts\Radio_transmitter.js" />
      <Compile Include="Assets\_Scripts\Robot_Deactivate_Body.js" />
      <Compile Include="Assets\_Scripts\Robot_Deactivate_Head.js" />
      <Compile Include="Assets\_Scripts\Robot_Deactive_Button.js" />
+     <Compile Include="Assets\_Scripts\Sprintrun.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\myHouseTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\oasisTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\platTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\walkingOasisTrigger.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
