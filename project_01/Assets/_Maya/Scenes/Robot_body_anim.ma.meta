@@ -1,50 +1,32 @@
 fileFormatVersion: 2
-guid: efd8f883451a34967beae0a1d872dbb1
+guid: 70e90521ca61f4830851fc55a78887a7
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCylinder1
-    100004: pSphere1
-    100006: Robot
-    100008: Robot1
-    100010: transform1
-    100012: transform2
-    100014: transform3
-    100016: L_Heel
-    100018: L_hip
-    100020: L_Knee
-    100022: L_Toe
-    100024: R_Heel
-    100026: R_hip
-    100028: R_Knee
-    100030: R_Toe
-    100032: SKEL
-    100034: SKEL_bot
-    400000: //RootNode
-    400002: pCylinder1
-    400004: pSphere1
-    400006: Robot
-    400008: Robot1
-    400010: transform1
-    400012: transform2
-    400014: transform3
-    400016: L_Heel
-    400018: L_hip
-    400020: L_Knee
-    400022: L_Toe
-    400024: R_Heel
-    400026: R_hip
-    400028: R_Knee
-    400030: R_Toe
-    400032: SKEL
-    400034: SKEL_bot
-    2300000: //RootNode
-    2300002: Robot1
-    3300000: //RootNode
-    3300002: Robot1
-    4300000: Robot
-    4300002: Robot1
+    100000: L_Heel
+    100002: L_hip
+    100004: L_Knee
+    100006: L_Toe
+    100008: R_Heel
+    100010: R_hip
+    100012: R_Knee
+    100014: R_Toe
+    100016: Robot1
+    100018: //RootNode
+    100020: SKEL
+    100022: SKEL_bot
+    400000: L_Heel
+    400002: L_hip
+    400004: L_Knee
+    400006: L_Toe
+    400008: R_Heel
+    400010: R_hip
+    400012: R_Knee
+    400014: R_Toe
+    400016: Robot1
+    400018: //RootNode
+    400020: SKEL
+    400022: SKEL_bot
     7400000: Take 001
     9500000: //RootNode
   materials:
