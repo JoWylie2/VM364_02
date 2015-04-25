@@ -10,7 +10,7 @@ function Update () {
    transform.LookAt(target);
    }	
    
- function OnTriggerEnter (other : Collider){
+function OnTriggerEnter (other : Collider){
  	if(other.tag == "Player") {light.intensity =2; 
  	}	
 }
