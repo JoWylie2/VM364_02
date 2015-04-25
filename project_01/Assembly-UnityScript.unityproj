@@ -51,6 +51,9 @@
      <Compile Include="Assets\_Scripts\Lookat.js" />
      <Compile Include="Assets\_Scripts\ObjectDestroy.js" />
      <Compile Include="Assets\_Scripts\Radio_Fix.js" />
+     <Compile Include="Assets\_Scripts\Robot_Deactivate_Body.js" />
+     <Compile Include="Assets\_Scripts\Robot_Deactivate_Head.js" />
+     <Compile Include="Assets\_Scripts\Robot_Deactive_Button.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
