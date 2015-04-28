@@ -3,6 +3,7 @@
 var walkSpeed: float = 7; // regular speed
 var crchSpeed: float = 3; // crouching speed
 var runSpeed: float = 20; // run speed
+var beatSpeed: float = 40;
 
  
  private var chMotor: CharacterMotor;
@@ -14,24 +15,40 @@ var runSpeed: float = 20; // run speed
      tr = transform;
      var ch:CharacterController = GetComponent(CharacterController);
      dist = ch.height/2; // calculate distance to ground
+//     Footsteps.walking = 2;
  }
  
 
  function Update(){
      var vScale = 1.0;
      var speed = walkSpeed;
-     
      if (chMotor.grounded && Input.GetKey("left shift") || Input.GetKey("right shift")){
          speed = runSpeed;
+//         Footsteps.walking = 3;
      }
+     
+     if (chMotor.grounded && Input.GetKey(KeyCode.KeypadEnter)){
+         speed = beatSpeed;
+//         Footsteps.walking = 3;
+     }
+
+     
      if (Input.GetKey("c")){ // press C to crouch
          vScale = 0.5;
          speed = crchSpeed; // slow down when crouching
+//    	Footsteps.walking = 1; 
+
      }
+     
+//     if (Input.GetKeyUp("c")){
+//     	Footsteps.walking = 2;
+//     }
      
      if (Dynamic_Speed_slow1.slowDown == true){
      	speed = crchSpeed;
      }
+     
+
      
      chMotor.movement.maxForwardSpeed = speed; // set max speed
      var ultScale = tr.localScale.y; // crouch/stand up smoothly 
