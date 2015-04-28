@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-public var target : Transform;
+ var target : Transform;
 static var oasisActivate : boolean = false;
 
 function Start () {

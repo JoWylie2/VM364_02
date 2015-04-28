@@ -1,14 +1,17 @@
 ﻿#pragma strict
 
-var arrive: AudioSource;
+ var arrive: AudioSource;
+ 
  var transmitter: AudioSource;
+  var transmitterSpoken: boolean = false;
+ 
  var billboard: AudioSource;
  var walkingArt: AudioSource;
  var stopRobots: AudioSource;
  var divergence: AudioSource;
  
  var myHouseFromHere: AudioSource;
- var myHouseSpoken: boolean = false;
+ var myHouseSpoken: boolean = false; 
  
  var walkingOasis: AudioSource;
  var walkingOasisSpoken: boolean = false;
@@ -27,7 +30,7 @@ var arrive: AudioSource;
  var audio15: AudioSource;
 
 function Start () {
-	var aSources = GetComponents(AudioSource);
+	var aSources : AudioSource[] = gameObject.GetComponents.<AudioSource>();
 		arrive = aSources[0];
 		transmitter = aSources[1];
 		billboard = aSources[2];
@@ -46,6 +49,15 @@ function Start () {
 }
 
 function Update () {
+
+	if (transmitterTrigger.transmitterActivate == true){
+		if (transmitterSpoken == false){
+				transmitter.Play();
+				transmitterTrigger.transmitterActivate = false;
+				transmitterSpoken = true;
+			}
+		}
+
 	if (myHouseTrigger.myHouseActivate == true){
 		if (myHouseSpoken == false){
 				myHouseFromHere.Play();

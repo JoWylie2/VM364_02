@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 818fbad6a2c2e4fd095804742c01f01c
+guid: 698c0c42d2fab4357932ddc82dafd86b
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,10 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: BIGTOP
-    4300002: BIGTOP1
-    4300004: Chair_Bunch
-    4300006: Chair_Bundle
+    4300000: Headset
     9500000: //RootNode
   materials:
     importMaterials: 1
