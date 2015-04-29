@@ -1,13 +1,20 @@
 ﻿#pragma strict
 
  var arrive: AudioSource;
+ var arriveSpoken: boolean = false;
  
  var transmitter: AudioSource;
-  var transmitterSpoken: boolean = false;
+ var transmitterSpoken: boolean = false;
  
  var billboard: AudioSource;
+ var billboardSpoken: boolean = false;
+ 
  var walkingArt: AudioSource;
+ 
  var stopRobots: AudioSource;
+ var stopRobotsSpoken: boolean = false;// not matched this up yet!!
+
+ 
  var divergence: AudioSource;
  
  var myHouseFromHere: AudioSource;
@@ -25,6 +32,8 @@
  var platSpoken: boolean = false;
  
  var antenna: AudioSource;
+ var antennaSpoken: boolean = false; 
+ 
  var doorUnlock: AudioSource;
  var meetDJ: AudioSource;
  var audio15: AudioSource;
@@ -49,6 +58,30 @@ function Start () {
 }
 
 function Update () {
+
+	if (arriveTrigger.arriveActivate == true){
+			if (arriveSpoken == false){
+					arrive.Play();
+					arriveTrigger.arriveActivate = false;
+					arriveSpoken = true;
+				}
+			}
+
+	if (antennaTrigger.antennaActivate == true){
+			if (antennaSpoken == false){
+					antenna.Play();
+					antennaTrigger.antennaActivate = false;
+					antennaSpoken = true;
+				}
+			}
+			
+	if (billboardTrigger.billboardActivate == true){
+			if (billboardSpoken == false){
+					billboard.Play();
+					billboardTrigger.billboardActivate = false;
+					billboardSpoken = true;
+				}
+			}
 
 	if (transmitterTrigger.transmitterActivate == true){
 		if (transmitterSpoken == false){
