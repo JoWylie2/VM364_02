@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/ObjectDestroy.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Radio Transmitter.js">
     <Files>
-      <File FileName="Assets/_Scripts/ObjectDestroy.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/myHouseTrigger.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/Radio Transmitter.js" Line="4" Column="17" />
+      <File FileName="Assets/_Scripts/Radio Transmitter.js" Line="15" Column="68" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/arriveTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Radio_Fix.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/billboardTrigger.js" Line="7" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
