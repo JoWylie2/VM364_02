@@ -1,30 +1,13 @@
 fileFormatVersion: 2
-guid: 8e44e8f616b764844a7ee3d6890dacfd
+guid: b7af897c5597e44c69ad7266fad719cc
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: areaLight1
-    100002: areaLight3
-    100004: areaLight4
-    100006: areaLight5
-    100008: //RootNode
-    100010: INT_Wall1
-    100012: place3dTexture1
-    100014: pCube4
-    400000: areaLight1
-    400002: areaLight3
-    400004: areaLight4
-    400006: areaLight5
-    400008: //RootNode
-    400010: INT_Wall1
-    400012: place3dTexture1
-    400014: pCube4
-    2300000: INT_Wall1
-    2300002: pCube4
-    3300000: INT_Wall1
-    3300002: pCube4
-    4300000: INT_Wall1
-    4300002: pCube4
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube1
     9500000: //RootNode
   materials:
     importMaterials: 1
