@@ -63,6 +63,8 @@
      <Compile Include="Assets\_Scripts\_Audio_Triggers\antennaTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\arriveTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\billboardTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioBackTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioLinesTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\myHouseTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\oasisTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\platTrigger.js" />
