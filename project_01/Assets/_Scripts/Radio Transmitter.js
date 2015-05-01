@@ -36,7 +36,12 @@
  
  var doorUnlock: AudioSource;
  var meetDJ: AudioSource;
- var audio15: AudioSource;
+ 
+ var extraRadioBack: AudioSource;
+ var extraRadioBackSpoken: boolean = false; 
+ 
+var extraRadioLines: AudioSource;
+var extraRadioLinesSpoken: boolean = false; 
 
 function Start () {
 	var aSources : AudioSource[] = gameObject.GetComponents.<AudioSource>();
@@ -54,7 +59,9 @@ function Start () {
 		antenna = aSources[11];
 		doorUnlock = aSources[12];
 		meetDJ = aSources[13];
-		audio15 = aSources[14];
+		extraRadioBack = aSources[14];
+		extraRadioLines = aSources[15];
+
 }
 
 function Update () {
@@ -66,6 +73,23 @@ function Update () {
 					arriveSpoken = true;
 				}
 			}
+
+if (extraRadioBackTrigger.extraRadioBackActivate == true){
+			if (extraRadioBackSpoken == false){
+					extraRadioBack.Play();
+					extraRadioBackTrigger.extraRadioBackActivate = false;
+					extraRadioBackSpoken = true;
+				}
+			}
+			
+	if (extraRadioLinesTrigger.extraRadioLinesActivate == true){
+			if (extraRadioLinesSpoken == false){
+					extraRadioLines.Play();
+					extraRadioLinesTrigger.extraRadioLinesActivate = false;
+					extraRadioLinesSpoken = true;
+				}
+			}
+
 
 	if (antennaTrigger.antennaActivate == true){
 			if (antennaSpoken == false){
