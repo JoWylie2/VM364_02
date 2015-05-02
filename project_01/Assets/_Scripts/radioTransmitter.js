@@ -34,13 +34,14 @@
  var platSpoken: boolean = false;
  
  var antenna: AudioSource;
- var antennaSpoken: boolean = false; 
+ static var antennaSpoken: boolean = false; 
  
- var doorUnlock: AudioSource;
+var doorUnlock: AudioSource;
 var doorUnlockSpoken: boolean = false; 
  
  
  var meetDJ: AudioSource;
+ var meetDJSpoken: boolean = false; 
  
  var extraRadioBack: AudioSource;
  var extraRadioBackSpoken: boolean = false; 
@@ -178,14 +179,26 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 					antennaSpoken = true;
 				}
 			}
+			
 	if (doorUnlockTrigger.doorUnlockActivate == true){
-	if (antennaSpoken == true){
-	if (doorUnlockSpoken == false){
-		doorUnlock.Play();
-		doorUnlockTrigger.doorUnlockActivate = false;
-		doorUnlockSpoken = true;
+		if (doorUnlockSpoken == false){
+			doorUnlock.Play();
+			doorUnlockTrigger.doorUnlockActivate = false;
+			doorUnlockSpoken = true;
+		}
+}
+
+	if (meetDJTrigger.meetDJActivate == true){
+		if (meetDJSpoken == false){
+			meetDJ.Play();
+			meetDJTrigger.meetDJActivate = false;
+			meetDJSpoken = true;
+		}
 	}
-}}
+	
+	if (musicStop.musicStop == true){
+		meetDJ.Stop();
+		}
 
 }
 

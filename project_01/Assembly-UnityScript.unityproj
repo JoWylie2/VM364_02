@@ -54,7 +54,6 @@
      <Compile Include="Assets\_Scripts\HelpText.js" />
      <Compile Include="Assets\_Scripts\Lookat.js" />
      <Compile Include="Assets\_Scripts\ObjectDestroy.js" />
-     <Compile Include="Assets\_Scripts\Radio Transmitter.js" />
      <Compile Include="Assets\_Scripts\Radio_Fix.js" />
      <Compile Include="Assets\_Scripts\Robot_Deactivate_Body.js" />
      <Compile Include="Assets\_Scripts\Robot_Deactivate_Head.js" />
@@ -67,6 +66,8 @@
      <Compile Include="Assets\_Scripts\_Audio_Triggers\doorUnlockTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioBackTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioLinesTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\meetDJTrigger.js" />
+     <Compile Include="Assets\_Scripts\_Audio_Triggers\musicStop.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\myHouseTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\oasisTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\platTrigger.js" />
@@ -75,6 +76,7 @@
      <Compile Include="Assets\_Scripts\_Audio_Triggers\walkingArtTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\walkingOasisTrigger.js" />
      <Compile Include="Assets\_Scripts\doorUnlockAnim.js" />
+     <Compile Include="Assets\_Scripts\radioTransmitter.js" />
      <Compile Include="Assets\_Scripts\whereWalk.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />

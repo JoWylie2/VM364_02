@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/_Audio_Triggers/doorUnlockTrigger.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/doorUnlockAnim.js">
     <Files>
-      <File FileName="Assets/_Scripts/_Audio_Triggers/doorUnlockTrigger.js" Line="13" Column="2" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/stopRobotsTrigger.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/Radio Transmitter.js" Line="177" Column="52" />
+      <File FileName="Assets/_Scripts/radioTransmitter.js" Line="186" Column="49" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/meetDJTrigger.js" Line="4" Column="1" />
       <File FileName="Assets/_Scripts/_Audio_Triggers/myHouseTrigger.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/dinerPassTrigger.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/doorUnlockAnim.js" Line="14" Column="3" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/antennaTrigger.js" Line="11" Column="35" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/musicStop.js" Line="8" Column="2" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/antennaTrigger.js" Line="7" Column="37" />
+      <File FileName="Assets/_Scripts/doorUnlockAnim.js" Line="8" Column="3" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/doorUnlockTrigger.js" Line="5" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
