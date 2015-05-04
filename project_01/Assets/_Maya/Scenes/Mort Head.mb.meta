@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: a972e69a403ae493f90876de39b68e4c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mort_body
+    100004: Mort_Head
+    100006: Mort_Skel
+    100008: pCube10
+    100010: pCube5
+    100012: pCube6
+    100014: pCube7
+    100016: pCube9
+    100018: pCylinder11
+    100020: pCylinder12
+    100022: pCylinder13
+    100024: pCylinder14
+    100026: pCylinder15
+    100028: pCylinder16
+    100030: pCylinder17
+    100032: pPipe1
+    100034: pPipe2
+    100036: transform19
+    100038: transform20
+    100040: transform21
+    100042: transform22
+    100044: transform23
+    100046: transform24
+    100048: transform25
+    100050: transform26
+    100052: transform27
+    100054: transform28
+    100056: transform29
+    100058: transform30
+    100060: transform31
+    100062: transform32
+    400000: //RootNode
+    400002: Mort_body
+    400004: Mort_Head
+    400006: Mort_Skel
+    400008: pCube10
+    400010: pCube5
+    400012: pCube6
+    400014: pCube7
+    400016: pCube9
+    400018: pCylinder11
+    400020: pCylinder12
+    400022: pCylinder13
+    400024: pCylinder14
+    400026: pCylinder15
+    400028: pCylinder16
+    400030: pCylinder17
+    400032: pPipe1
+    400034: pPipe2
+    400036: transform19
+    400038: transform20
+    400040: transform21
+    400042: transform22
+    400044: transform23
+    400046: transform24
+    400048: transform25
+    400050: transform26
+    400052: transform27
+    400054: transform28
+    400056: transform29
+    400058: transform30
+    400060: transform31
+    400062: transform32
+    2300000: Mort_Head
+    2300002: Mort_Skel
+    2300004: //RootNode
+    3300000: Mort_Head
+    3300002: Mort_Skel
+    3300004: //RootNode
+    4300000: Mort_Skel
+    4300002: Mort_Head
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
