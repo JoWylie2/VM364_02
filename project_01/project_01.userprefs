@@ -1,8 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/FadeToBlack.js">
     <Files>
       <File FileName="Assets/_Scripts/FadeToBlack.js" Line="9" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Radio Transmitter.js">
+    <Files>
+      <File FileName="Assets/_Scripts/Radio Transmitter.js" Line="85" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/arriveTrigger.js" Line="3" Column="1" />
+      <File FileName="Assets/_Scripts/Radio_Fix.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/billboardTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/myHouseTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/extraRadioBackTrigger.js" Line="7" Column="2" />
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
