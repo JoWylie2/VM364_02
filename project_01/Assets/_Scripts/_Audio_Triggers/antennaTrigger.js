@@ -1,8 +1,6 @@
 ﻿#pragma strict
 
 static var antennaActivate : boolean = false;
-<<<<<<< HEAD
-<<<<<<< HEAD
 private var pickUp : Animator;
 
 function Start (){
@@ -12,11 +10,9 @@ function Start (){
 function OnMouseDown () {
 	pickUp.enabled = !pickUp.enabled;
 	antennaActivate = true;
-	yield WaitForSeconds(1);
-=======
-=======
->>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
-
+	yield WaitForSeconds(0.5);
+	Destroy (this.gameObject);
+}
 
 function Update (){
 	if (antennaActivate == true){
@@ -24,13 +20,3 @@ function Update (){
 	else {animation.Stop();}
 	
 	}
-
-function OnMouseDown () {
-	antennaActivate = true;
-	yield WaitForSeconds(0.5);
-<<<<<<< HEAD
->>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
-=======
->>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
-	Destroy (this.gameObject);
-}
