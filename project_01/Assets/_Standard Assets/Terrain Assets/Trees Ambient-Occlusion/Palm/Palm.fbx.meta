@@ -62,7 +62,11 @@ ModelImporter:
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   additionalBone: 0
+=======
+  additionalBone: 1
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 =======
   additionalBone: 1
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3

@@ -2,6 +2,7 @@
 
 static var antennaActivate : boolean = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 private var pickUp : Animator;
 
 function Start (){
@@ -13,6 +14,8 @@ function OnMouseDown () {
 	antennaActivate = true;
 	yield WaitForSeconds(1);
 =======
+=======
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 
 
 function Update (){
@@ -25,6 +28,9 @@ function Update (){
 function OnMouseDown () {
 	antennaActivate = true;
 	yield WaitForSeconds(0.5);
+<<<<<<< HEAD
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
+=======
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 	Destroy (this.gameObject);
 }
