@@ -20,7 +20,11 @@
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+=======
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 =======
 	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
@@ -44,6 +48,7 @@
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	  <HintPath>/Applications/Unity_4.6.1/Unity 4.6.1.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
@@ -56,6 +61,8 @@
      <Compile Include="Assets\SandstoneDesertRocksFree\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
      <Compile Include="Assets\SandstoneDesertRocksFree\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
 =======
+=======
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
@@ -63,13 +70,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
+=======
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
      <Compile Include="Assets\_Scripts\Background Music.js" />
      <Compile Include="Assets\_Scripts\Cursor\CrossHairCursor.js" />
      <Compile Include="Assets\_Scripts\Cursor\CursorLock.js" />
      <Compile Include="Assets\_Scripts\Dynamic_Speed_slow1.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
      <Compile Include="Assets\_Scripts\FadeToBlack.js" />
+=======
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 =======
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
      <Compile Include="Assets\_Scripts\Footsteps.js" />
@@ -77,6 +90,10 @@
      <Compile Include="Assets\_Scripts\Lookat.js" />
      <Compile Include="Assets\_Scripts\ObjectDestroy.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\_Scripts\Radio Transmitter.js" />
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
 =======
      <Compile Include="Assets\_Scripts\Radio Transmitter.js" />
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
@@ -87,6 +104,7 @@
      <Compile Include="Assets\_Scripts\Sprintrun.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\antennaTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\arriveTrigger.js" />
+<<<<<<< HEAD
 <<<<<<< HEAD
      <Compile Include="Assets\_Scripts\_Audio_Triggers\backgroundMusic.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\billboardTrigger.js" />
@@ -111,6 +129,8 @@
      <Compile Include="Assets\_Scripts\loadGame.js" />
      <Compile Include="Assets\_Scripts\radioTransmitter.js" />
 =======
+=======
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
      <Compile Include="Assets\_Scripts\_Audio_Triggers\billboardTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioBackTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\extraRadioLinesTrigger.js" />
@@ -119,6 +139,9 @@
      <Compile Include="Assets\_Scripts\_Audio_Triggers\platTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\transmitterTrigger.js" />
      <Compile Include="Assets\_Scripts\_Audio_Triggers\walkingOasisTrigger.js" />
+<<<<<<< HEAD
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
+=======
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
      <Compile Include="Assets\_Scripts\whereWalk.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
@@ -128,6 +151,7 @@
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
      <Compile Include="Assets\_Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
      <None Include="Assets\_Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+<<<<<<< HEAD
 <<<<<<< HEAD
      <None Include="Assets\SandstoneDesertRocksFree\_info.txt" />
      <None Include="Assets\_Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
@@ -141,11 +165,16 @@
  <HintPath>/Applications/Unity_4.6.1/Unity 4.6.1.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
 =======
+=======
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
      <None Include="Assets\_Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\_Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\_Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\_Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\_Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+<<<<<<< HEAD
+>>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
+=======
 >>>>>>> fc1df3dcb34fb23bdfa2c8c1573060a9328645d3
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
