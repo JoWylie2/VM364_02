@@ -17,6 +17,7 @@
  
  var divergence: AudioSource;
  var divergenceSpoken: boolean = false;
+
  
  var myHouseFromHere: AudioSource;
  var myHouseSpoken: boolean = false; 
@@ -39,7 +40,6 @@
 var doorUnlock: AudioSource;
 var doorUnlockSpoken: boolean = false; 
  
- 
  var meetDJ: AudioSource;
  var meetDJSpoken: boolean = false; 
  
@@ -48,6 +48,18 @@ var doorUnlockSpoken: boolean = false;
  
 var extraRadioLines: AudioSource;
 var extraRadioLinesSpoken: boolean = false; 
+
+var truck : AudioSource;
+var truckSpoken: boolean = false;
+
+var mural : AudioSource;
+var muralSpoken: boolean = false;
+
+var robotHead : AudioSource;
+var robotHeadSpoken: boolean = false;
+
+var lost : AudioSource;
+var lostSpoken : boolean = false;
 
 function Start () {
 	var aSources : AudioSource[] = gameObject.GetComponents.<AudioSource>();
@@ -67,6 +79,10 @@ function Start () {
 		meetDJ = aSources[13];
 		extraRadioBack = aSources[14];
 		extraRadioLines = aSources[15];
+		truck = aSources[16];
+		mural = aSources[17];
+		robotHead = aSources[18];
+		lost = aSources[19];
 
 }
 
@@ -82,21 +98,21 @@ function Update () {
 
 if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			if (extraRadioBackSpoken == false){
+			if (extraRadioLinesSpoken == false){
 					extraRadioBack.Play();
 					extraRadioBackTrigger.extraRadioBackActivate = false;
 					extraRadioBackSpoken = true;
-				}
+				}}
 			}
 			
 	if (extraRadioLinesTrigger.extraRadioLinesActivate == true){
 			if (extraRadioLinesSpoken == false){
+			if (extraRadioBackSpoken ==false){
 					extraRadioLines.Play();
 					extraRadioLinesTrigger.extraRadioLinesActivate = false;
 					extraRadioLinesSpoken = true;
-				}
+				}}
 			}
-
-
 
 	if (billboardTrigger.billboardActivate == true){
 			if (billboardSpoken == false){
@@ -107,6 +123,8 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			}
 			
 	if (walkingArtTrigger.walkingArtActivate == true){
+			if (stopRobotsSpoken == false){
+				walkingArtTrigger.walkingArtActivate = false;}
 			if (walkingArtSpoken == false){
 					walkingArt.Play();
 					walkingArtTrigger.walkingArtActivate = false;
@@ -116,10 +134,12 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 
 	if (transmitterTrigger.transmitterActivate == true){
 		if (transmitterSpoken == false){
+		if (extraRadioLinesSpoken == true || extraRadioBackSpoken == true){
 				transmitter.Play();
 				transmitterTrigger.transmitterActivate = false;
 				transmitterSpoken = true;
 			}
+		}
 		}
 		
 	if (stopRobotsTrigger.stopRobotsActivate == true){
@@ -129,6 +149,14 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 				stopRobotsSpoken = true;
 			}
 		}
+	if (stopRobotsTrigger.divergenceActivate == true){
+		if (divergenceSpoken == false){
+				divergence.Play();
+				stopRobotsTrigger.divergenceActivate = false;
+				divergenceSpoken = true;
+			}
+		}
+
 
 	if (myHouseTrigger.myHouseActivate == true){
 		if (myHouseSpoken == false){
@@ -137,13 +165,22 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 				myHouseSpoken = true;
 			}
 		}
+		
+	if (myHouseTrigger.lostActivate == true){
+		if (lostSpoken == false){
+			lost.Play();
+			myHouseTrigger.lostActivate = false;
+			lostSpoken = true;
+		}
+	}
 
 	if (walkingOasisTrigger.walkingOasisActivate == true){
 		if (walkingOasisSpoken == false){
+		if (stopRobotsSpoken == true){
 			walkingOasis.Play();
 			walkingOasisTrigger.walkingOasisActivate = false;
 			walkingOasisSpoken = true;
-		}
+		}}
 	}
 	
 	if (oasisTrigger.oasisActivate == true){
@@ -151,6 +188,15 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			oasis.Play();
 			oasisTrigger.oasisActivate = false;
 			oasisSpoken = true;
+			lostSpoken = true;
+		}
+	}
+	
+	if (robotHeadTrigger.robotHeadActivate == true){
+		if (robotHeadSpoken == false){
+			robotHead.Play();
+			robotHeadTrigger.robotHeadActivate = false;
+			robotHeadSpoken = true;
 		}
 	}
 
@@ -186,7 +232,7 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			doorUnlockTrigger.doorUnlockActivate = false;
 			doorUnlockSpoken = true;
 		}
-}
+	}
 
 	if (meetDJTrigger.meetDJActivate == true){
 		if (meetDJSpoken == false){
@@ -196,9 +242,28 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 		}
 	}
 	
-	if (musicStop.musicStop == true){
-		meetDJ.Stop();
+	if (truckTrigger.truckActivate == true){
+		if (truckSpoken == false){
+			truck.Play();
+			truckTrigger.truckActivate = false;
+			truckSpoken = true;
 		}
-
+	}
+	
+	if (muralTrigger.muralActivate == true){
+		if (muralSpoken == false){
+			mural.Play();
+			muralTrigger.muralActivate = false;
+			muralSpoken = true;
+		}
+	}
+		
+	if (musicStop.musicStop == true){
+		Destroy (this.gameObject);}
 }
+
+
+
+
+
 
