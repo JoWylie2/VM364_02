@@ -1,13 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/fadeTrigger.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/backgroundMusic.js">
     <Files>
-      <File FileName="Assets/_Scripts/_Audio_Triggers/antennaTrigger.js" Line="15" Column="1" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/backgroundMusic.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/arriveTrigger.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/_Audio_Triggers/myHouseTrigger.js" Line="15" Column="4" />
-      <File FileName="Assets/_Scripts/fadeToBlack.js" Line="13" Column="26" />
-      <File FileName="Assets/_Scripts/fadeTrigger.js" Line="12" Column="2" />
+      <File FileName="Assets/_Scripts/robotPlaceAnim.js" Line="13" Column="12" />
+      <File FileName="Assets/_Scripts/doorUnlockAnim.js" Line="7" Column="10" />
+      <File FileName="Assets/_Scripts/robotPlaceTrigger.js" Line="5" Column="26" />
+      <File FileName="Assets/_Scripts/antennaPlace.js" Line="11" Column="34" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/meetDJTrigger.js" Line="5" Column="46" />
+      <File FileName="Assets/_Scripts/ObjectDestroy.js" Line="4" Column="1" />
+      <File FileName="Assets/_Scripts/radioTransmitter.js" Line="93" Column="24" />
+      <File FileName="Assets/_Scripts/fadeToBlack.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/backgroundMusic.js" Line="13" Column="29" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/doorUnlockTrigger.js" Line="13" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
