@@ -118,7 +118,7 @@ function Start () {
 
 function Update () {
 
-		if (musicStop.musicStop == true){
+		if (killDJ.musicStop == true){
 		Destroy (this.gameObject);}
 
 	if (arriveTrigger.arriveActivate == true){
@@ -163,7 +163,7 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 	if (walkingArtTrigger.walkingArtActivate == true){
 			if (stopRobotsSpoken == false){
 				walkingArtTrigger.walkingArtActivate = false;}
-			if (walkingArtSpoken == false){
+			if (walkingArtSpoken == true){
 				WaitingForwalkingArt();
 					walkingArt.Play();
 					walkingArtTrigger.walkingArtActivate = false;
@@ -224,6 +224,7 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 		if (walkingOasisSpoken == false){
 		if (stopRobotsSpoken == true){
 		WaitingForwalkingOasis();
+			lostSpoken = true;			
 			walkingOasis.Play();
 			walkingOasisTrigger.walkingOasisActivate = false;
 			walkingOasisSpoken = true;
@@ -293,6 +294,9 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 	if (meetDJTrigger.meetDJActivate == true){
 		if (meetDJSpoken == false){
 		WaitingFormeetDJ();
+				backgroundMusic.backgroundHappyPlaying = false;
+				backgroundMusic.backgroundChangingPlaying = false;
+				backgroundMusic.backgroundSadPlaying = false;
 			meetDJ.Play();
 			meetDJTrigger.meetDJActivate = false;
 			meetDJSpoken = true;
@@ -316,6 +320,15 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			muralSpoken = true;
 			}
 			}
+			
+	if (robotPlaceAnim.goodbyeActivate == true){
+	if (goodbyeSpoken == false){
+	WaitingForgoodbye();
+		goodbye.Play();
+		robotPlaceAnim.goodbyeActivate = false;
+		goodbyeSpoken = true;
+	}
+	}
 }
 			
 function WaitingForArrive (){
@@ -413,7 +426,7 @@ function WaitingForantenna (){
 	yield WaitForSeconds (meetDJLength);
 		backgroundMusic.backgroundHappyPlaying = false;
 		backgroundMusic.backgroundChangingPlaying = false;
-		backgroundMusic.backgroundSadPlaying = false;
+		backgroundMusic.backgroundSadPlaying = true;
 		musicQuiet = false;
 
 	}

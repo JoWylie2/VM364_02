@@ -14,8 +14,7 @@ var beatSpeed: float = 40;
      chMotor = GetComponent(CharacterMotor);
      tr = transform;
      var ch:CharacterController = GetComponent(CharacterController);
-     dist = ch.height/2; // calculate distance to ground
-//     Footsteps.walking = 2;
+     dist = ch.height/2; //
  }
  
 
@@ -23,26 +22,21 @@ var beatSpeed: float = 40;
      var vScale = 1.0;
      var speed = walkSpeed;
      if (chMotor.grounded && Input.GetKey("left shift") || Input.GetKey("right shift")){
+     if (DJHelpText.robotDestroy == false){
          speed = runSpeed;
-//         Footsteps.walking = 3;
-     }
+     }}
      
      if (chMotor.grounded && Input.GetKey(KeyCode.KeypadEnter)){
          speed = beatSpeed;
-//         Footsteps.walking = 3;
      }
 
      
-     if (Input.GetKey("c")){ // press C to crouch
+     if (Input.GetKey("c")){
+       if (DJHelpText.robotDestroy == false){
          vScale = 0.5;
-         speed = crchSpeed; // slow down when crouching
-//    	Footsteps.walking = 1; 
-
+         speed = crchSpeed;} // slow down when crouching
      }
      
-//     if (Input.GetKeyUp("c")){
-//     	Footsteps.walking = 2;
-//     }
      
      if (Dynamic_Speed_slow1.slowDown == true){
      	speed = crchSpeed;

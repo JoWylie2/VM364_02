@@ -1,12 +1,15 @@
 ﻿//#pragma strict
 //
-//static var road: boolean = false;
+//static var road: boolean = true;
 //
 //function Start() {
-//	road = false;
+//
 //}
 //
 //function OnTriggerEnter (other : Collider){
 // 	if(other.tag == "Player") {road = true;
-// 	}
-// }	
+// 	}}
+// 
+//function OnTriggerExit (other: Collider){
+//	if (other.tag == "Player"){road = false;}
+//}

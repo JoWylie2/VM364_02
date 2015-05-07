@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var robotPlaced : boolean = false;
-static var goodbye : boolean = false;
+static var goodbyeActivate : boolean = false;
 
 
 function Update () {
@@ -16,4 +16,4 @@ function Update () {
 
 function Goodbye(){
 	yield WaitForSeconds (1);
-	goodbye = true;}
+	goodbyeActivate = true;}

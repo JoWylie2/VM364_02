@@ -53,6 +53,7 @@
      <Compile Include="Assets\_Scripts\--Radio Transmitter.js" />
      <Compile Include="Assets\_Scripts\Cursor\CrossHairCursor.js" />
      <Compile Include="Assets\_Scripts\Cursor\CursorLock.js" />
+     <Compile Include="Assets\_Scripts\DJHelpText.js" />
      <Compile Include="Assets\_Scripts\Dynamic_Speed_slow1.js" />
      <Compile Include="Assets\_Scripts\Footsteps.js" />
      <Compile Include="Assets\_Scripts\HelpText.js" />
@@ -87,11 +88,13 @@
      <Compile Include="Assets\_Scripts\doorUnlockAnim.js" />
      <Compile Include="Assets\_Scripts\fadeToBlack.js" />
      <Compile Include="Assets\_Scripts\fadeTrigger.js" />
+     <Compile Include="Assets\_Scripts\killDJ.js" />
      <Compile Include="Assets\_Scripts\loadGame.js" />
      <Compile Include="Assets\_Scripts\plugAnim.js" />
      <Compile Include="Assets\_Scripts\radioTransmitter.js" />
      <Compile Include="Assets\_Scripts\robotPlaceAnim.js" />
      <Compile Include="Assets\_Scripts\robotPlaceTrigger.js" />
+     <Compile Include="Assets\_Scripts\robotStopDestry.js" />
      <Compile Include="Assets\_Scripts\whereWalk.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />

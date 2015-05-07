@@ -19,12 +19,26 @@ function Start () {
 
 function Update (){
 
-	if (musicStop.musicStop == true){
+	if (killDJ.musicStop == true){
 		Destroy (this.gameObject);}
 
 	if (backgroundHappyPlaying == true){
 		backgroundHappy.Play();
 		backgroundHappyPlaying = false;}
+		
+	if (backgroundChangingPlaying == true){
+		backgroundChanging.Play();
+		backgroundChangingPlaying = false;
+		backgroundHappy.Stop();
+		backgroundSad.Stop();
+		}
+		
+	if (backgroundSadPlaying == true){
+		backgroundSad.Play();
+		backgroundSadPlaying = false;
+		backgroundHappy.Stop();
+		backgroundChanging.Stop();
+		}
 		
 	if (radioTransmitter.musicQuiet == true){
 		backgroundHappy.volume = 0.3;
