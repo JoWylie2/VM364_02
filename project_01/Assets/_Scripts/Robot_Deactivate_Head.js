@@ -5,7 +5,7 @@ function Start () {
 }
 
 function Update () {
-	if (Robot_Deactive_Button.robotDestroy == true){
+	if (DJHelpText.robotDestroy == true){
 		Destroy (this.gameObject);
 		
 	} 

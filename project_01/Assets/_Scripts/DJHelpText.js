@@ -10,7 +10,7 @@ function Start () {
 }
 
 function Update () {
-	if (robotPlaceAnim.goodbyeActivate == true){
+	if (robotPlaceAnim.robotPlaced == true){
 	if (animationPlayed == false){
 	if (killDJGUI == true){
 	animation.Play();

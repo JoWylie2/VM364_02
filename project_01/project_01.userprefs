@@ -1,16 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Robot_Deactivate_Body.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/backgroundMusic.js">
     <Files>
-      <File FileName="Assets/_Scripts/Robot_Deactive_Button.js" Line="9" Column="22" />
-      <File FileName="Assets/_Scripts/Robot_Deactivate_Body.js" Line="14" Column="4" />
-      <File FileName="Assets/_Scripts/killDJ.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/DJHelpText.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/backgroundMusic.js" Line="50" Column="19" />
-      <File FileName="Assets/_Scripts/Sprintrun.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/Footsteps.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/whereWalk.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/radioTransmitter.js" Line="306" Column="42" />
+      <File FileName="Assets/_Scripts/backgroundMusic.js" Line="41" Column="4" />
+      <File FileName="Assets/_Scripts/wallUp.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/radioTransmitter.js" Line="330" Column="3" />
+      <File FileName="Assets/_Scripts/ObjectDestroy.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/loadGame.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/loadEnd.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/fadeTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/blockOff.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/_Audio_Triggers/oasisTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/robotPlaceAnim.js" Line="14" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

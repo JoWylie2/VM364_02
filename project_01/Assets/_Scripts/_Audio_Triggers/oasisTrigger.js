@@ -9,5 +9,6 @@ function Start () {
 
 function OnTriggerEnter (other : Collider){
  	if(other.tag == "Player") {oasisActivate = true;
+ 	blockOff.blockOff = true;
  	}	
 }

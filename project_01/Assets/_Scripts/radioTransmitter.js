@@ -325,6 +325,9 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 	if (goodbyeSpoken == false){
 	WaitingForgoodbye();
 		goodbye.Play();
+		backgroundMusic.backgroundHappyPlaying = false;
+		backgroundMusic.backgroundChangingPlaying = false;
+		backgroundMusic.backgroundSadPlaying = false;
 		robotPlaceAnim.goodbyeActivate = false;
 		goodbyeSpoken = true;
 	}

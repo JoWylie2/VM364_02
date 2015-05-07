@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var robotPlaced : boolean = false;
+static var robotPlaced : boolean = false;
 static var goodbyeActivate : boolean = false;
 
 

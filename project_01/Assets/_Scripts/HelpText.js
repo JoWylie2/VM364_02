@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-  var toggleGUI : boolean;
+  static var toggleGUI : boolean;
   public var target : Transform;
   
 function Start() {

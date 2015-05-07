@@ -41,14 +41,14 @@ function Update (){
 		}
 		
 	if (radioTransmitter.musicQuiet == true){
-		backgroundHappy.volume = 0.3;
-		backgroundChanging.volume = 0.3;
-		backgroundSad.volume = 0.3;
+		backgroundHappy.volume = 0.1;
+		backgroundChanging.volume = 0.1;
+		backgroundSad.volume = 0.1;
 		}
 	if (radioTransmitter.musicQuiet == false){
-		backgroundHappy.volume = 1;
-		backgroundChanging.volume = 1;
-		backgroundSad.volume = 1;
+		backgroundHappy.volume = 0.8;
+		backgroundChanging.volume = 0.8;
+		backgroundSad.volume = 0.8;
 		}
 }
 		
