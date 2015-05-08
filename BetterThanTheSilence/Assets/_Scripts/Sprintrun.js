@@ -22,9 +22,8 @@ var beatSpeed: float = 40;
      var vScale = 1.0;
      var speed = walkSpeed;
      if (chMotor.grounded && Input.GetKey("left shift") || Input.GetKey("right shift")){
-     if (DJHelpText.robotDestroy == false){
          speed = runSpeed;
-     }}
+     }
      
      if (chMotor.grounded && Input.GetKey(KeyCode.KeypadEnter)){
          speed = beatSpeed;
@@ -32,9 +31,8 @@ var beatSpeed: float = 40;
 
      
      if (Input.GetKey("c")){
-       if (DJHelpText.robotDestroy == false){
          vScale = 0.5;
-         speed = crchSpeed;} // slow down when crouching
+         speed = crchSpeed; // slow down when crouching
      }
      
      

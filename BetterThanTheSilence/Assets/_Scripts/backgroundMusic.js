@@ -19,7 +19,7 @@ function Start () {
 
 function Update (){
 
-	if (killDJ.musicStop == true){
+	if (robotPlaceAnim.robotPlaced == true){
 		Destroy (this.gameObject);}
 
 	if (backgroundHappyPlaying == true){

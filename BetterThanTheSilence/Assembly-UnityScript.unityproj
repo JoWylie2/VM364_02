@@ -99,6 +99,7 @@
      <Compile Include="Assets\_Scripts\robotStopDestry.js" />
      <Compile Include="Assets\_Scripts\wallUp.js" />
      <Compile Include="Assets\_Scripts\whereWalk.js" />
+     <Compile Include="Assets\_Scripts\windVolume.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\_Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />

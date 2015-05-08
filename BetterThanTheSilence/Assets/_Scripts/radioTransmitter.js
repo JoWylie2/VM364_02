@@ -134,105 +134,117 @@ function Update () {
 if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			if (extraRadioBackSpoken == false){
 			if (extraRadioLinesSpoken == false){
+			if (musicQuiet == false){
 			WaitingForextraRadioBack();
 					extraRadioBack.Play();
 					extraRadioBackTrigger.extraRadioBackActivate = false;
 					extraRadioBackSpoken = true;
-				}}
+				}}}
 			}
 			
 	if (extraRadioLinesTrigger.extraRadioLinesActivate == true){
 			if (extraRadioLinesSpoken == false){
 			if (extraRadioBackSpoken ==false){
+			if (musicQuiet == false){
 			WaitingForextraRadioLines();
 					extraRadioLines.Play();
 					extraRadioLinesTrigger.extraRadioLinesActivate = false;
 					extraRadioLinesSpoken = true;
-				}}
+				}}}
 			}
 
 	if (billboardTrigger.billboardActivate == true){
 			if (billboardSpoken == false){
+			if (musicQuiet == false){
 			WaitingForbillboard();
 					billboard.Play();
 					billboardTrigger.billboardActivate = false;
 					billboardSpoken = true;
-				}
+				}}
 			}
 			
 	if (walkingArtTrigger.walkingArtActivate == true){
 			if (stopRobotsSpoken == false){
 				walkingArtTrigger.walkingArtActivate = false;}
 			if (walkingArtSpoken == true){
+			if (musicQuiet == false){
 				WaitingForwalkingArt();
 					walkingArt.Play();
 					walkingArtTrigger.walkingArtActivate = false;
 					walkingArtSpoken = true;
-				}
+				}}
 			}
 
 	if (transmitterTrigger.transmitterActivate == true){
 		if (transmitterSpoken == false){
 		if (extraRadioLinesSpoken == true || extraRadioBackSpoken == true){
+		if (musicQuiet == false){
 				WaitingForTransmitter();
 				transmitter.Play();
 				transmitterTrigger.transmitterActivate = false;
 				transmitterSpoken = true;
-			}
+			}}
 		}
 		}
 		
 	if (stopRobotsTrigger.stopRobotsActivate == true){
 		if (stopRobotsSpoken == false){
+			if (musicQuiet == false){
 			WaitingForstopRobots();
 				stopRobots.Play();
 				stopRobotsTrigger.stopRobotsActivate = false;
 				stopRobotsSpoken = true;
-			}
+			}}
 		}
+		
 	if (stopRobotsTrigger.divergenceActivate == true){
 		if (divergenceSpoken == false){
+			if (musicQuiet == false){
 			WaitingFordivergence();
 				divergence.Play();
 				stopRobotsTrigger.divergenceActivate = false;
 				divergenceSpoken = true;
-			}
+			}}
 		}
 
 
 	if (myHouseTrigger.myHouseActivate == true){
 		if (myHouseSpoken == false){
+		if (musicQuiet == false){
 		WaitingFormyHouseFromHere();
 				myHouseFromHere.Play();
 				myHouseTrigger.myHouseActivate = false;
 				myHouseSpoken = true;
 				backgroundMusic.backgroundHappyPlaying = false;
 				backgroundMusic.backgroundChangingPlaying = true;
-			}
+			}}
 		}
 		
 	if (myHouseTrigger.lostActivate == true){
 		if (lostSpoken == false){
+			if (musicQuiet == false){
 			WaitingForlost();
 			lost.Play();
 			myHouseTrigger.lostActivate = false;
 			lostSpoken = true;
-		}
+		}}
 	}
 
 	if (walkingOasisTrigger.walkingOasisActivate == true){
 		if (walkingOasisSpoken == false){
 		if (stopRobotsSpoken == true){
+			if (musicQuiet == false){
 		WaitingForwalkingOasis();
 			lostSpoken = true;			
 			walkingOasis.Play();
 			walkingOasisTrigger.walkingOasisActivate = false;
 			walkingOasisSpoken = true;
-		}}
+		}}}
 	}
 	
 	if (oasisTrigger.oasisActivate == true){
 		if (oasisSpoken == false){
+			if (musicQuiet == false){
 			WaitingForoasis();
 			oasis.Play();
 			oasisTrigger.oasisActivate = false;
@@ -241,58 +253,64 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			backgroundMusic.backgroundHappyPlaying = false;
 			backgroundMusic.backgroundChangingPlaying = false;
 			backgroundMusic.backgroundSadPlaying = true;
-		}
+		}}
 	}
 	
 	if (robotHeadTrigger.robotHeadActivate == true){
 		if (robotHeadSpoken == false){
+			if (musicQuiet == false){
 		WaitingForrobotHead();
 			robotHead.Play();
 			robotHeadTrigger.robotHeadActivate = false;
 			robotHeadSpoken = true;
-		}
+		}}
 	}
 
 	if (dinerPassTrigger.dinerPassActivate == true){
 			if (antennaSpoken == false){
 			if (dinerPassSpoken == false){
+			if (musicQuiet == false){
 			WaitingFordinerPass();
 				dinerPass.Play();
 				dinerPassTrigger.dinerPassActivate = false;
 				dinerPassSpoken = true;
-			}
+			}}
 		}
 		}
 	
 	if (platTrigger.platActivate == true){
 		if (platSpoken == false){
+		if (musicQuiet == false){
 		WaitingForplataeu();
 			plataeu.Play();
 			platTrigger.platActivate = false;
 			platSpoken = true;
-		}
+		}}
 	}
 	
 	if (antennaTrigger.antennaActivate == true){
 			if (antennaSpoken == false){
+			if (musicQuiet == false){
 			WaitingForantenna();
 					antenna.Play();
 					antennaTrigger.antennaActivate = false;
 					antennaSpoken = true;
-				}
+				}}
 			}
 			
 	if (doorUnlockTrigger.doorUnlockActivate == true){
 		if (doorUnlockSpoken == false){
+			if (musicQuiet == false){	
 		WaitingFordoorUnlock();
 			doorUnlock.Play();
 			doorUnlockTrigger.doorUnlockActivate = false;
 			doorUnlockSpoken = true;
-		}
+		}}
 	}
 
 	if (meetDJTrigger.meetDJActivate == true){
 		if (meetDJSpoken == false){
+		if (musicQuiet == false){
 		WaitingFormeetDJ();
 				backgroundMusic.backgroundHappyPlaying = false;
 				backgroundMusic.backgroundChangingPlaying = false;
@@ -300,7 +318,7 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 			meetDJ.Play();
 			meetDJTrigger.meetDJActivate = false;
 			meetDJSpoken = true;
-		}
+		}}
 	}
 	
 	if (truckTrigger.truckActivate == true){
@@ -314,23 +332,25 @@ if (extraRadioBackTrigger.extraRadioBackActivate == true){
 	
 	if (muralTrigger.muralActivate == true){
 		if (muralSpoken == false){
+		if (musicQuiet == false){
 		WaitingFormural();
 			mural.Play();
 			muralTrigger.muralActivate = false;
 			muralSpoken = true;
-			}
-			}
+		}}
+	}
 			
 	if (robotPlaceAnim.goodbyeActivate == true){
-	if (goodbyeSpoken == false){
-	WaitingForgoodbye();
-		goodbye.Play();
-		backgroundMusic.backgroundHappyPlaying = false;
-		backgroundMusic.backgroundChangingPlaying = false;
-		backgroundMusic.backgroundSadPlaying = false;
-		robotPlaceAnim.goodbyeActivate = false;
-		goodbyeSpoken = true;
-	}
+		if (goodbyeSpoken == false){
+		if (musicQuiet == false){
+		WaitingForgoodbye();
+			goodbye.Play();
+			backgroundMusic.backgroundHappyPlaying = false;
+			backgroundMusic.backgroundChangingPlaying = false;
+			backgroundMusic.backgroundSadPlaying = false;
+			robotPlaceAnim.goodbyeActivate = false;
+			goodbyeSpoken = true;
+		}}
 	}
 }
 			
@@ -429,7 +449,7 @@ function WaitingForantenna (){
 	yield WaitForSeconds (meetDJLength);
 		backgroundMusic.backgroundHappyPlaying = false;
 		backgroundMusic.backgroundChangingPlaying = false;
-		backgroundMusic.backgroundSadPlaying = true;
+		backgroundMusic.backgroundSadPlaying = false;
 		musicQuiet = false;
 
 	}
