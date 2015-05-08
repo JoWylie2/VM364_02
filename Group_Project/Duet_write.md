@@ -2,7 +2,7 @@
 
 Duet was conceived after being given the brief to create a physical game based on the iOS game Duet by Kumobius.
 
-![Duet](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/duet.png)
+![Duet](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/duet.png)
 
 We went through a number of iterations in creating the game.
 
@@ -18,7 +18,7 @@ We built the deck of cards, which consisted at the time of:
 * 4 Color switch cards (switch 2 colors of your choice)
 * 4 Remove color cards (Remove all blue tiles)
 
-![1st iteration deck](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/iteration1-cards.png)
+![1st iteration deck](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/iteration1-cards.png)
 
 *(Fig 2.) An early iteration of our deck of cards
 
@@ -41,7 +41,7 @@ The four “Remove color” cards were removed, and “color swap” cards were 
 ### Setup
 Your first time playing, set the board up in the following design:
 
-![board](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/setup-board.png)
+![board](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/setup-board.png)
 
 ### How to play
 1. Choose two readers and two players. Board players place feet at edge of board and each place their alternate hands on the middle square. 
@@ -51,11 +51,11 @@ Your first time playing, set the board up in the following design:
 5. The game goes on until someone falls down or misplaces their appendage. It’s the job of the opposing team to notice and call out where applicable.
 6. As you get more familiar with the board and the game, Feel free to mix up the board design to keep players on their toes (and fingers!). These are two particularly challenging board set ups to try out:
 
-![board 2](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/board2.png)
-![board 3](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/board3.png)
-![irl1](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/irl1.png)
-![irl2](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/irl2.png)
+![board 2](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/board2.png)
+![board 3](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/board3.png)
+![irl1](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/irl1.png)
+![irl2](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/irl2.png)
 
 As we tested out different board variations, we discovered that having pairs of color next to each other made for an easier game than the colors equally disperse throughout. This was clearly a bell curve, however - clumping the colors all together on the four sides of the board made for a much harder game!
 
-![box](https://github.com/JoWylie2/VM364_02/blob/master/Research_Proj/Img/box.png)
+![box](https://github.com/JoWylie2/VM364_02/blob/master/Group_Project/Img/box.png)
